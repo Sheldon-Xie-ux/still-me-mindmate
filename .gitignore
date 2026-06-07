@@ -1,0 +1,26 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+*.db
+*.sqlite
+*.sqlite3
+
+# Node / frontend
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Local env
+.env
+.env.*
+!.env.example
+
+# Logs and local artifacts
+*.log
+tmp/
+temp/
